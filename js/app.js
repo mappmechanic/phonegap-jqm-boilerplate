@@ -15,5 +15,5 @@ $(document).on( "mobileinit", function() {
     $.support.cors = true;
     $.mobile.buttonMarkup.hoverDelay = 0;
     $.mobile.pushStateEnabled = false;
-    $.mobile.defaultPageTransition = "fade";
+    $.mobile.defaultPageTransition = "none";
 });
