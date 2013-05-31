@@ -22,3 +22,7 @@
  {
  	background: #FFFFFF;
  }
+ .ui-page {
+   -webkit-animation-fill-mode: both;
+   -webkit-backface-visibility: hidden;
+ }
