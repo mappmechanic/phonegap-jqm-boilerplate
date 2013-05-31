@@ -13,19 +13,23 @@
  </head>
  <body>
  	<div data-role="page" id="login">
- 		<div data-role="header">
- 			<h1>Header Text</h1>
- 		</div>
  		<div data-role="content">
- 			<h3>Content Comes here</h3>
- 			<a href="#home" data-role="button" data-transition="none">Click On Me</a>
- 		</div>
- 		<div data-role="footer" data-position="fixed">
- 			<h1>&copy; Footer Text</h1>
+ 			<br><br><div data-role="collapsible" data-theme="b" data-content-theme="d" data-collapsed="false">
+			    <h4>Boilerplate Login Panel</h4>
+			    <div data-role="fieldcontain">
+			    <label for="textinput-fc">Username:</label>
+			    <input type="text" name="textinput-fc" id="textinput-fc" placeholder="Email Address / Username" value="">
+			</div>
+			<div data-role="fieldcontain">
+			    <label for="textinput-fc">Password:</label>
+			    <input type="text" name="textinput-fc" id="textinput-fc" placeholder="Password" value="">
+			</div>
+ 			<a href="#home" data-role="button" data-transition="none">Click to Login</a>
+			</div>
  		</div>
  	</div>
 
- 	<div data-role="page" id="home">
+ 	<div data-role="page" id="home" data-add-back-btn="true">
  		<div data-role="header">
  			<h1>Header Text</h1>
  		</div>
